@@ -1,0 +1,44 @@
+{
+  "name": "d3/stagemarker",
+  "description": "show informational stage bar in front- and / or backend",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop",
+    "d3",
+    "stage"
+  ],
+  "authors": [
+    {
+        "name": "D3 Data Development (Inh. Thomas Dartsch)",
+        "email": "info@shopmodule.com",
+        "homepage": "https://www.d3data.de",
+        "role": "Owner"
+    }
+  ],
+  "support": {
+    "email": "support@shopmodule.com"
+  },
+  "homepage": "https://www.oxidmodule.com/",
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "*.md",
+        "composer.json"
+      ],
+      "target-directory": "d3/stagemarker"
+    }
+  },
+  "require": {
+    "oxid-esales/oxideshop-ce": "6.5 - 6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "D3\\StageMarker\\": "../../../source/modules/d3/stagemarker"
+    }
+  }
+}
