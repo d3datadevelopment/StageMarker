@@ -88,7 +88,7 @@ class StageMarker extends Base
      */
     protected function getRegexPattern(): string
     {
-        return '/(<\s*body.*?>)/m';
+        return '/(<\s*\bbody\b.*?>)/m';
     }
 
     /**
